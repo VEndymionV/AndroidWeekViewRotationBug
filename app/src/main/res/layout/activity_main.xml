@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <com.alamkanak.weekview.WeekView
+            android:id="@+id/weekView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:timeColumnTextSize="12sp"
+            app:hourHeight="60dp"
+            app:timeColumnPadding="8dp"
+            app:headerRowPadding="12dp"
+            app:columnGap="8dp"
+            app:numberOfVisibleDays="1">
+    </com.alamkanak.weekview.WeekView>
+
+</android.support.constraint.ConstraintLayout>
